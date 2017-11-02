@@ -1,0 +1,129 @@
+
+    // // getCategorie(){
+    // //     let categorie:{
+    // //         id: number,
+    // //         name: string
+    // //     }[] = Bdd.categorie;
+    // //     for(let a of categorie){
+    // //         let newCat:Categorie = new Categorie(a.id, a.name);
+    // //         this.categories.push(newCat);
+    // //     }
+    // // }
+
+
+    // getCatById(id:number):Categorie{
+    //     for(let a of this.categories){
+    //         if(id == a.getId()){
+    //             return a;      
+    //         }
+    //     }
+    //     return null;
+    // }
+    // // getProduit(){
+    // //     let product:{
+    // //         id: number,
+    // //         name: string,
+    // //         categorieID: number
+    // //     }[] = Bdd.produit;
+
+    // //     for( let a of product){
+    // //         let thisProduct = new Produit(
+    // //             a.id,
+    // //             a.name,
+    // //             this.getCatById(a.categorieID)
+    // //         );
+    // //         this.produits.push(thisProduct);
+    // //     }
+    // // }
+
+    // (id:number):Produit{
+    //     for(let a of this.produits){
+    //         if(id == a.getId()){
+    //             return a;
+    //         }
+    //     }
+    //     return null;
+    // }
+
+    // // getVendeur(){
+    // //     let vendors:{
+    // //         id:number,
+    // //         name: string,
+    // //         produits: number[]
+    // //     }[] = Bdd.vendeur
+
+    // //     for(let a of vendors){
+
+    // //         let vendeurproduits: Produit[] = [];
+
+    // //         for( let produit_id of a.produits ){
+    // //             let the_produit = this.getProductByid( produit_id );
+    // //             vendeurproduits.push( the_produit );
+    // //         }
+    // //         let newVendor:Vendeur = new Vendeur(
+    // //             a.id,
+    // //             a.name,
+    // //             vendeurproduits
+    // //         );
+    // //         this.vendeurs.push(newVendor);          
+    // //     }
+    // // }
+
+    // displayVendeur(){
+    //     for(let vendeur of this.vendeurs){
+
+    //         vendeur.display(this.contVendeur2);
+    //     }
+    // }
+
+    // displayCategorie(){
+    //     for(let categorie of this.categories){
+    //         categorie.display(this.header);
+    //     }
+    // }
+
+    // displayleft(){
+        
+    // }
+
+
+    // getvendeurById(id:number):Vendeur{
+    //     for(let vendeur of this.vendeurs){
+    //         if(vendeur.getId() === id){
+    //             return vendeur;
+    //         }else{
+    //             return null;
+    //         }
+    //     }
+    // }
+
+
+
+    // clearBoard(){
+    //     this.contVendeur.html("");
+    //     for(let a of this.categories){
+    //         a.$dom.html("");
+    //     }
+    // }
+
+    // displayVendorProduct(test:Vendeur) : void{
+
+    //     this.clearBoard();
+
+    //     for(let a of this.produits){
+
+    //             for(let c of test.produits){
+                    
+    //                 if(c.getId() == a.getId()){
+    //                     this.flagVenPro = true;                     
+    //                 }
+    //             }
+    //                 if(this.flagVenPro == true){
+    //                     a.display(this.contVendeur);
+    //                 }
+    //                 else{
+    //                     let categorie: Categorie = a.catId;
+    //                     a.display(categorie.$dom);
+    //                 }   
+    //     }
+    // }

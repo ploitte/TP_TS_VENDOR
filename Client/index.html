@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- ________Inscription/Connexion________ -->
+    <div id="theKING">
+    <div id="firstPage">
+        <div id="error">
+        </div>
+        <div class="regCo">
+                <form class="formu" id="co">
+                    <h2>Connection</h2>
+                    <input type="text" id="usernameCo" placeholder="Username...">
+                    <input type="password" id="passCo" placeholder="Password...">
+                    <input type="submit" value="Connect" id="subCo">
+                </form>
+
+        </div>
+        <div class="regCo">
+                <form class="formu">
+                    <div id="warning"></div>
+                    <h3 id="alertMessage">Under maintenance</h3>
+                    <h2>Register</h2>
+                    <input type="text" id="usernameReg" placeholder="Username...">
+                    <input type="email" id="emailReg" placeholder="Email...">
+                    <input type="password" id="passReg" placeholder="Password...">
+                    <input type="password" id="confPassReg" placeholder="Confirm password...">
+                    <input type="submit"  value="Register" id="subReg">
+                </form>
+        </div>
+    </div>
+
+
+
+   <!-- ________PAGE CATEGORIE________ -->
+    <div id="categoriePage" class="bigPage">
+        <div id="exit"></div>
+        <div id="connected"></div>
+        <div class="mainCont" id="catMain"></div>
+    </div>
+
+    <!-- ________PAGE PRODUIT________ -->
+    <div id="produitPage" class="bigPage b">
+        <div class="back" id="prod"></div>
+        <div class="mainCont" id="prodMain"></div>
+    </div>
+
+    <!-- ________Detail PRODUIT________ -->
+    <div id="detailPage" class="bigPage b">
+        <div class="back" id="deta"></div>
+        <div class="mainCont" id="detailMain"></div>
+    </div>
+</div>
+
+    
+
+
+    <script src="node_modules/systemjs/dist/system.js"></script>
+    <script src="JS/libs/jquery.js"></script>
+    <script src="JS/main.js"></script>
+    <script>
+        System.import("main").catch(function(err){console.error(err)});
+    </script>
+
+</body>
+</html>

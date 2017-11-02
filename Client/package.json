@@ -1,0 +1,27 @@
+{
+  "name": "tsdragvendeur",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jquery": "^3.2.15",
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-typescript": "^3.2.2",
+    "jquery": "^3.2.1",
+    "systemjs": "^0.20.19",
+    "typescript": "^2.5.3"
+  },
+  "description": "",
+  "dependencies": {
+    "@types/jquery": "^3.2.15",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-typescript": "^3.2.2"
+  }
+}
